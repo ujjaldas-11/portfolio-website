@@ -36,19 +36,22 @@ const skills = [
         title: "Python",
         image: "/python.svg"
     },
-]
+];
 
 
-export default function page(){
+export default function page() {
     return (
-        <div className="grid lg:grid-cols-5 grid-cols-2 gap-10 h-[100%] mt-10 p-15">
-            {skills.map((skill) => (
+        <>
+            <h1 className="text-2xl font-bold underline px-10 mt-10">Skills</h1>
+            <div className="grid lg:grid-cols-5 grid-cols-2 gap-10 h-[100%] p-10">
+                {skills.map((skill) => (
                     <div className="p-2 grid place-items-center">
                         <img className="h-[8rem] w-[9rem]" src={skill.image} alt="loading.." />
                         <span>{skill.title} </span>
-                    </div>        
-            ))}
-            
-        </div>
+                    </div>
+                ))}
+
+            </div>
+        </>
     )
 }

@@ -9,7 +9,7 @@ export default function Home() {
 
     <div className="lg:flex lg:justify-evenly lg:items-center h-[100vh] md:flex-row md:justify-evenly md:items-center sm:flex-col sm:items-center lg:-mt-10 mt-20">
       <div className="p-4">
-        <h1 className="text-4xl font-bold lg:text-left text-center">Hi, i'm Ujjl Das</h1>
+        <h1 className="text-4xl font-bold lg:text-left text-center">Hi, i'm Ujjal Das</h1>
         <p className="text-2xl text-gray-600 mt-6 mb-8 lg:text-left text-center">I'm a web developer foused on<br /> building exceptional digital experiences.</p>
         <div className="lg:text-left text-center">
         <Button>Resume</Button>
