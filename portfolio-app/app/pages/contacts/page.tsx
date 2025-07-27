@@ -27,7 +27,7 @@ export default function page() {
                     <textarea 
                         name="message" 
                         id="message"
-                        placeholder="Enter message"
+                        placeholder="Write message"
                         className="w-full border border-gray-500 rounded-xl p-5 focus:outline-none focus:ring-2 mt-2"
                         />
                 </div>

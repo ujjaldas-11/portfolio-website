@@ -65,7 +65,7 @@ export default function() {
   return(
     <div className="grid lg:grid-cols-3 place-items-center h-[100%] md:grid-cols-2 sm:grid-cols-1 mt-6 mb-6">
       {projects.map((project)=> (
-        <div className="border rounded-2xl p-3 text-center w-[20rem] h-100% mt-10">
+        <div className="border rounded-2xl p-3 text-center w-[20rem] h-100% mt-10 transition hover:scale-108 hover:border-gray-300">
          <div className="text-2xl font-bold">{project.title}</div>
          <div className="p-4 mt-6 h-[8rem] flex justify-center items-center">
          <img src={project.image} alt="img" className="rounded-2xl p-2 border-1 "/>
