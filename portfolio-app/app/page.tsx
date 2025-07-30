@@ -16,7 +16,7 @@ export default function Home() {
         </div>
       </div>          
       <div className="grid place-items-center lg:mt-2 mt-20">
-        <img className="h-[20rem] w-[20rem]" src="https://file.aiquickdraw.com/imgcompressed/img/compressed_8b7d18f6bddac16dbbf7682dfc1010c8.webp" alt="coder" />
+        <img className="h-[22rem] w-[22rem]" src="/coder.png" alt="coder" />
       </div>
     </div>
     </div>
